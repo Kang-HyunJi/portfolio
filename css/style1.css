@@ -55,6 +55,7 @@ html {
     position: absolute; top: 50%; left: 50%;
     transform: translate(-50%, -50%);
 }
+}
 /* s1 PROFILE */
 .s1>h2 {
     width: 100%; height: 100px; text-align: center;
@@ -66,7 +67,6 @@ html {
     width: 80%;
     margin: auto;
     margin-top: 100px;
-    gap: 20px;
 }
 .pr_profile {
     flex: 1;
@@ -100,7 +100,7 @@ html {
 .pr_txt {
     line-height: 1.5;
     float: left;
-    _padding-top: 20px;
+    padding-top: 20px;
     padding-left: 10px;
 }
 .pr_txt>div {
@@ -415,15 +415,10 @@ html {
     }
     
     
-/*********** s2 포트폴리오 ********/
-    .s2>h1 {
-        height: 50px;
-        line-height: 50px;
-        font-size: 23px;
-    }
+    /*********** s2 포트폴리오 ********/
     .slide {
         flex-direction: column;
-        margin: 0px 35px;
+        margin: 0px 67px;
     }
     .slide>.image {
         width: 82%;
@@ -435,44 +430,11 @@ html {
         top: 10vh;
         width: 80%;
     }
-    .slide .pf_txt_container .pf_title {
-        height: 35px;
-        line-height: 35px;
-        font-size: 16px;
-    }
-    .slide .pf_txt_container table {
-        width: 95%;
-        margin: auto;
-        line-height: 1.5;
-        font-size: 13px;
-        margin-top: 10px;
-    }
     .pf_gosite {
-        width: 50%;
-        margin: auto;
-        margin-top: 10px;
-    }
-    .pf_gosite a {
-        width: 100%;
-        padding: 10px 0;
-        font-size: 14px;
+        margin-top: 30px;
     }
     .left_arrow, .right_arrow {
-        width: 20px; top: 30%;
+        width: 30px;
     }
+ 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
